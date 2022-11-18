@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grid_container">
+      <!-- navigation bar -->
+      <div class="navigation_bar">
+        <div class="navigation_options">
+          <span><a href="index.html">HOME</a></span>
+          <span><a href="about.html">ABOUT</a></span>
+          <span><a href="resume.html">RESUME</a></span>
+          <span><a href="work.html">WORK</a></span>
+        </div>
+        <div class="navigation_other">
+          <div class="name_logo">
+            C8
+          </div>
+          <div class="contact_me_button">
+            <a href="contact.html"><button type="button" name="button">CONTACT ME</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- back to work page button -->
+      <div class="back_button">
+        <a href="work.html"><i class="material-icons back_icon">keyboard_backspace</i></a>
+      </div>
+      <!-- album player project -->
+      <div class="album_project">
+        <div class="album_project_wrapper">
+          <img src="images/line.png" class="lines" alt="">
+          <h1>ALBUM PLAYER</h1>
+          <img src="images/line.png" class="lines" alt="">
+          <div class="album_paragraph">
+            <img src="images/album-player.png" alt="">
+            <p>&emsp;&emsp;Utilizing HTML, CSS and JavaScript, this project mimics an &ldquo;album player&rdquo; similar to Spotify
+            and iTunes. There are three webpages that make up this project: albums.html, songs.html and player.html.
+            Aside from this, there is ipod.css which is the shared CSS file for the three HTML files and ipod.js
+            which is the JavaScript file used to carry out the player functionalities in player.html.</p>
+            <p>&emsp;&emsp;The first file, albums.html, simply contains 4 albums with their corresponding titles
+            and artist/s. They are evenly spaced out on an iPhone outline. This was achieved by adjusting the styles
+            of the albums, specifically their margins. Note: The iPhone outline has been cropped out of the images
+            for aesthetic purposes.</p>
+            <img src="images/album-player2.png" alt="" id="image_left_height">
+            <p>&emsp;&emsp;The second file, songs.html, is a song list for the first album in albums.html, Code. songs.html
+            can be accessed by clicking on either the name or text of the album in the albums.html. One could go back to the previous
+            page by clicking the arrow icon on the top left corner. On top, it repeats information
+            on the first page such as the picture of the album, title of album and artist/s with the addition of the year of the
+            album. At the bottom, there is an ordered list of the songs contained in the album. If you hover over the songs, the text
+            will change color and an underline will appear.</p>
+            <img src="images/album-player3.png" alt="" id="image_right">
+            <p>&emsp;&emsp;Finally, the third file, player.html, &ldquo;plays&rdquo; the songs of the Code album. One can be brought to this
+            page by selecting the first song of Code in songs.html, <em>Let's Go Up</em>. In here, the user can do 3 things. First, they can play
+            the song. Upon entering the page, the song will be paused. The user can hit the play icon to &ldquo;plays&rdquo; the music. It will then
+            change to a pause icon to indicate that the user can pause the song. It will also simulate the playback of the music, incrementing the time
+            of the music played in each second. If the user hits the pause icon, the song will pause at its current time. Unfortunately, the time interval
+            cannot be dragged or adjusted itself. However, one can proceed to the previous/next song in the album by hitting either of the buttons on
+            the side of the play button. Hitting the button on the left will take the user to the previous song, and hitting the button on the right will
+            take the user to the next song. The albums loops itself if it hits the beginning/end of the album. Aside from this, when the user hits either
+            of these buttons, the playback will reset to the beginning of the song. Additionally, if the music is being &ldquo;played&rdquo;, the new song
+            will start to play as well. If the music is paused, the new song is paused too. The last feature of this player is that the volume can be adjusted.
+            By default, it is set in the middle, 3 bars out of 5. One can hit the plus button to increase the volume and the minus button to do the opposite.
+            There are conditions in place that prevent the code from producing errors if the volume is being decreased when it's at its minimum and if it's
+            being increased when it's at its maximum.</p>
+            <p>You can check out the album player by clicking on the <a href="album_project/albums.html" target="_blank">link</a>. An embedded version of the
+            project can also be found below.</p>
+          </div>
+          <!-- album player project embed -->
+          <div class="album_embed">
+            <img src="images/line.png" class="lines" alt="">
+            <embed src="album_project/albums.html"">
+            <img src="images/line.png" class="lines" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

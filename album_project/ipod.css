@@ -1,0 +1,204 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	text-align: center;
+}
+
+.head-bar {
+	background-color: #5F939A;
+	text-shadow: 1px 1px black;
+	color: white;
+	height: 45px;
+	line-height: 45px;
+}
+
+.back-button {
+	text-align: left;
+	padding-left: 4%;
+	font-size: 200%;
+	text-shadow: none;
+}
+
+.back-button a {
+	text-decoration: none;
+	color: white;
+}
+
+/*
+	Albums
+			*/
+.albums-album-wrapper {
+	width: 135px;
+	height: 217px;
+	display: inline-block;
+	padding: 10px 5px;
+}
+
+.albums-album-wrapper a {
+	color: black;
+	text-decoration: none;
+}
+
+.albums-album-art {
+	display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 10px;
+}
+
+.albums-album-name {
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.albums-artist-name {
+	font-style: italic;
+	margin-top: 0;
+	font-size: 80%;
+}
+
+/*
+	Songs
+			*/
+.songs-info-wrapper {
+	text-align: left;
+	width: 285px;
+	height: 463px;
+	padding: 20px 7px;
+}
+
+.songs-album-art {
+	float: left;
+	width: 50%;
+	margin-right: 10px;
+}
+
+.songs-album-name {
+	font-weight: bold;
+	font-size: 150%;
+	margin-top: 0;
+}
+
+.songs-artist-name {
+	font-style: italic;
+}
+
+.songs-album-year {
+	margin: 25px auto;
+}
+
+.songs-text-info {
+	margin-top: 40px;
+	font-size: 105%;
+	padding-left: 9%;
+}
+
+.songs-text-info a{
+	color: black;
+	text-decoration: none;
+}
+
+.songs-list {
+	border: 1px solid lightgrey;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+
+.songs-list:hover {
+	color: #86A6A2;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*
+	Player
+			*/
+.player-album-art {
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.player-album-art img {
+  width: 80%;
+}
+
+.player-song-info {
+
+}
+
+#player-song-name {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 130%;
+}
+
+#player-artist-name {
+	margin-top: 2px;
+	font-size: 110%;
+	color: #5F939A;
+}
+
+#player-time {
+	width: 80%;
+	height: 5px;
+	margin-bottom: 5px;
+}
+
+#time-elapsed {
+	width: 30%;
+	float: left;
+	font-size: 90%;
+}
+
+#time-total {
+	width: 30%;
+	float: right;
+	font-size: 90%;
+}
+
+.player-controls{
+	margin-top: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.volume-level {
+
+}
+
+.volume-bar {
+	display: inline-block;
+	margin-bottom: 8px;
+	height: 6px;
+	width: 24px;
+	border: solid 1px;
+}
+
+.volume-rocker {
+	margin-top: 5px;
+}
+
+.volume-rocker button {
+	width: 30%;
+	background-color: white;
+	border: solid 1px lightgrey;
+	border-radius: 5px;
+}
+
+#volume-down {
+	margin-right: 10%;
+}
